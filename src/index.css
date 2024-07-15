@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sportsPic{
+    width: 50pc;
+    height: 200px;
+}
+#top-stories-container{
+    border-bottom: 3px solid #EF4444;
+    width: 620px;
+}
+#top-stories-container1{
+    border-bottom: 3px solid #16A34A ;
+    padding-bottom: 7px;
+    width: 600px;
+}
+#world1-pic{
+    width: 250px;
+}
+#world1-pic2{
+    width: 40rem;
+    height: 24rem;
+}
+#world1-pic2-cont{
+    margin-top: -30pc;
+}
+
+#pic1-text{
+    width: 200px;
+}
+#pic-1{
+    height: 17.9rem;   
+}
+@media screen and (max-width: 768px) {
+    #top-stories-container{
+        border-bottom: 2px solid #EF4444;
+        padding-bottom: 5px;
+        width: 90%;
+        justify-content: center;
+
+    }
+    #top-stories-container1{
+        border-bottom: 2px solid #16A34A;
+        padding-bottom: 25px;
+        width: 90%;
+        justify-content: center;
+
+    }
+    #world1-pic{
+        width: 22rem;
+        height: 18rem;
+    }
+    #world1-pic2{
+        width: 30rem;
+        height: 14rem;
+    }
+    #pics{
+        width: 90%;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 5px;
+    }
+    #pic-1{
+        width: 90%;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 5px;
+    }
+   
+
+}  
